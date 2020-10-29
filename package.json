@@ -4,6 +4,8 @@
   "version": "0.1.0",
   "main": "index.js",
   "scripts": {
+    "lint::editorconfig": "editorconfig-checker -exclude '.git|node_modules|.DS_Store'",
+    "lint": "npm run lint::editorconfig",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config config/webpack.prod.js",
     "start": "webpack serve --config config/webpack.dev.js"
@@ -24,6 +26,7 @@
     "copy-webpack-plugin": "6.2.1",
     "css-loader": "5.0.0",
     "css-minimizer-webpack-plugin": "1.1.5",
+    "editorconfig-checker": "3.3.0",
     "html-webpack-plugin": "4.5.0",
     "mini-css-extract-plugin": "1.2.1",
     "postcss-loader": "4.0.4",

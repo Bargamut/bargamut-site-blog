@@ -26,6 +26,7 @@ npm run build
 - [Babel](https://babeljs.io/)
 - [React](https://reactjs.org/)
 - [PostCSS](https://postcss.org/)
+- [AntDesign](https://ant.design/)
 
 ## Dependencies
 
@@ -60,6 +61,14 @@ npm run build
 - [`html-webpack-plugin`](https://github.com/jantimon/html-webpack-plugin) - Generate HTML files from template
 - [`mini-css-extract-plugin`](https://github.com/webpack-contrib/mini-css-extract-plugin) - Extract CSS into separate files
 - [`terser-webpack-plugin`](https://github.com/webpack-contrib/terser-webpack-plugin) - Optimize and minimize JavaScript
+
+### Tools
+
+- [`editorconfig-checker`](https://github.com/editorconfig-checker/editorconfig-checker) - Verifying that your files are in harmony with your .editorconfig
+
+### AntDesign
+
+- [`antd`](https://github.com/ant-design/ant-design/) - rainbow A UI Design Language and React UI library
 
 ## Author
 
