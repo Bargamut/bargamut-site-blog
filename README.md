@@ -1,24 +1,8 @@
-# 📦 Webpack Boilerplate via Bargamut
+# Bargamut's blog
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) ![David](https://img.shields.io/david/dev/bargamut/webpack-boilerplate-bargamut)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) ![David](https://img.shields.io/david/dev/bargamut/bargamut-site-blog)
 
 Webpack boilerplate with Babel, PostCSS, dev server with HMR and an optimized production build.
-
-## Installation
-
-```
-git clone git@github.com:bargamut/webpack-boilerplate-bargamut
-cd webpack-boilerplate-bargamut
-npm i
-```
-
-or
-
-```
-git clone git@github.com:bargamut/webpack-boilerplate-bargamut my-project
-cd my-project
-npm i
-```
 
 ## Usage
 

@@ -1,20 +1,18 @@
 {
-  "name": "webpack-boilerplate-bargamut",
-  "description": "Webpack boilerplate with Babel, PostCSS, dev server with HMR and an optimized production build",
-  "version": "0.1.4",
+  "name": "bargamut-site-blog",
+  "description": "Bargamut's blog",
+  "version": "0.1.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config config/webpack.prod.js",
     "start": "webpack serve --config config/webpack.dev.js"
   },
-  "keywords": [
-    "webpack",
-    "react",
-    "boilerplate",
-    "bargamut"
-  ],
-  "author": "",
+  "author": {
+		"name": "Paul \"Bargamut\" Petrov",
+		"email": "paul@bargamut.ru",
+		"url": "https://bargamut.ru"
+	},
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "7.12.3",
