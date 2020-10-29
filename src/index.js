@@ -8,15 +8,13 @@ import woman from './img/circle.svg';
 import font from './fonts/Abibas.otf';
 import './styles/main.css';
 
-class Game {
-	name = `Violin Charades`;
-	img = kitty;
-	vector = woman;
-	font = font;
-}
+import { ConfigProvider } from 'antd';
+import ruRU from 'antd/lib/locale/ru_RU';
 
-const myGame = new Game();
+ReactDOM.render(
+	<React.StrictMode>
+		<ConfigProvider locale={ruRU}>
 
-console.log(`I like ${myGame.name} and ${myGame.img}.`);
-console.log(`Also ${myGame.vector}.`);
-console.log(`Also ${myGame.font}.`);
+		</ConfigProvider>
+	</React.StrictMode>
+);
