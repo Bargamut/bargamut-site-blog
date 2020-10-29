@@ -1,20 +1,20 @@
 'use strict';
 
-import React from 'react';
-import ReactDOM from 'react-dom';
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
 
-import kitty from './img/kitty.jpg';
-import woman from './img/circle.svg';
-import font from './fonts/Abibas.otf';
 import './styles/main.css';
 
 import { ConfigProvider } from 'antd';
 import ruRU from 'antd/lib/locale/ru_RU';
 
+import App from './components/App/App';
+
 ReactDOM.render(
 	<React.StrictMode>
 		<ConfigProvider locale={ruRU}>
-
+			<App />
 		</ConfigProvider>
-	</React.StrictMode>
+	</React.StrictMode>,
+	document.getElementById(`root`)
 );
